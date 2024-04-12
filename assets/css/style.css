@@ -1,0 +1,49 @@
+:root {
+  --main-color: #0267C1;
+  --sub-color: #8abbdb;
+  --safe-card: #D4E6B5;
+  --warning-card: #EFA00B;
+  --overdue-card: #591F0A;
+}
+
+header {
+  color: white;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: var(--main-color);
+}
+
+.swim-lanes {
+  min-height: 60vh;
+}
+
+.task-card {
+  margin: 0 auto;
+}
+
+.task-card:hover {
+  cursor: grab;
+}
+
+#draggable { width: 150px; height: 150px; padding: 0.5em; }
+
+.class {
+  z-index:5;
+}
+
+#todo-cards{
+  background-color: var(--sub-color);
+}
+
+#snaptarget {
+  height:100%;
+  padding-bottom: 300px;
+  background-color: var(--sub-color);
+}
+
+.card, .list-group-item, delete {
+  background-color: var(--safe-card);
+}
