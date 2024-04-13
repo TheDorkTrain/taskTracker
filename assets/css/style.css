@@ -30,11 +30,7 @@ body {
 
 #draggable { width: 150px; height: 150px; padding: 0.5em; }
 
-.class {
-  z-index:5;
-}
-
-#todo-cards{
+.ui-widget-header{
   background-color: var(--sub-color);
 }
 
@@ -44,6 +40,10 @@ body {
   background-color: var(--sub-color);
 }
 
-.card, .list-group-item, delete {
-  background-color: var(--safe-card);
+h2 {
+  color: var(--main-color);
+}
+
+.ui-widget-content, .list-group-item{
+  background-color: var(--main-color);
 }
